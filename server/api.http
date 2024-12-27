@@ -1,0 +1,20 @@
+
+### Create Goal
+POST http://localhost:3333/create-goal 
+content-type: application/json
+
+{
+    "title": "nlw class",
+    "desiredWeeklyFrequency": 2
+}
+
+### Get pending week goals
+GET http://localhost:3333/pending-goals 
+
+### Get pending week goals
+POST http://localhost:3333/completions 
+content-type: application/json
+
+{
+    "goalId": "vyksk0ltflwyg07inp3v3mlf"
+}
